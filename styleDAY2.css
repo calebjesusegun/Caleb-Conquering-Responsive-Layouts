@@ -35,15 +35,16 @@ body {
   margin: 0 auto;
 }
 
-.intro-content h2 {
-  width: 50%;
-}
-
 .intro-content p {
   width: 50%;
 }
 
+.intro-content h2 {
+  width: 50%;
+}
+
 .body-content {
-  margin: 0 auto;
+  width: 80%;
   max-width: 750px;
+  margin: 0 auto;
 }
