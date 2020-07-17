@@ -8,21 +8,28 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="indexFlexbox3Solution.css" />
+    <link rel="stylesheet" href="practiceFlex3.css" />
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
-          <li class="nav__item">
-            <a href="#" class="nav__link nav__link--button">Sign up</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container row">
+        <a class="logo" href="#">
+          <img src="img/logo (1).svg" alt="Conquering Responsiveness" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="hero">
